@@ -1,0 +1,27 @@
+#access particular position item
+x = ["apple", "banana", "cherry"]
+print(x[1])
+
+#loops through list
+x = ["a", "n", "y"]
+for i in x:
+  print(i)
+
+#Append method
+x = ["a", "n", "y"]
+x.append("o")
+print(x)
+
+#insert element
+x = ["a", "n", "y"]
+x.insert(1, "o")
+print(x)
+
+#remove item
+
+x = ["a", "n", "y"]
+
+x.remove('n')
+x.pop(2)
+del x[1]
+print(x)
