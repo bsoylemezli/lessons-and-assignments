@@ -1,11 +1,18 @@
 #Python code to Check if a Number is Odd or Even
 _________________________________________
+for i in range(2,10,2):
+    print(i)
+for i in range(1,10,2):
+    print(i)
 
 #Python code to remove the duplicates of 't' from given array and print the array
 
 x = ['g','t','u','g','t','w','t']
-
-___________________________________________________________
+#there must be easier way to do this but could not figure out!
+x.pop(4)
+x.copy()
+x.pop(5)
+print(x)
 
 
 #python code to find the index of each element of x array in y array and print it
@@ -14,4 +21,17 @@ x = ['b','a','r','t']
 
 y = ['a','b','c','g','j','t','q','r']
 
+# I done it this way, Maybe you wanted me to do one by one but find this one easier:)
+
+x = ['b','a','r','t']
+for x in range(0,4):
+    print(x.__index__())
+
+
+
+
+
+y = ['a','b','c','g','j','t','q','r']
+for y in range(0,7):
+    print(y.__index__())
 
